@@ -1,7 +1,9 @@
 package repositories;
 
+import models.Contact;
+
 public interface Telephone {
-    void call ();
+    void call(Contact contact);
     void toMeet();
     String initVoiceMail();
 }
