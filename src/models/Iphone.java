@@ -38,27 +38,32 @@ public class Iphone implements MusicPlayer, BrowserInternet, Telephone {
 
     @Override
     public void play() {
-
+        int count = 1;
+        for (Music m : musics){
+            System.out.println(count + "º música: " + m);
+        }
     }
 
     @Override
     public void pause() {
-
+        System.out.println("Música pausada");
     }
 
     @Override
     public void selectMusic(String name) {
-
+        for (Music m : musics){
+            if(m.getName().equals(name)) System.out.println("Tocando: " + m);
+        }
     }
 
     @Override
-    public void call() {
-
+    public void call(Contact contact) {
+        System.out.println("Ligando para: " + contact);
     }
 
     @Override
     public void toMeet() {
-
+        System.out.println("Atendendo ligação");
     }
 
     @Override
