@@ -20,9 +20,6 @@ public class VoiceMail {
 
     @Override
     public String toString() {
-        return "VoiceMail{" +
-                "number=" + number +
-                ", message='" + message + '\'' +
-                '}';
+        return "VoiceMail{" + " number = " + number + ", message = " + message + '}';
     }
 }

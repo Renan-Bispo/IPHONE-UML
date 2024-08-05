@@ -19,9 +19,6 @@ public class Page {
 
     @Override
     public String toString() {
-        return "Page{" +
-                "url='" + url + '\'' +
-                ", ip='" + ip + '\'' +
-                '}';
+        return "Page{" + " url = " + url + ", ip= " + ip +  '}';
     }
 }

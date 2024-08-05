@@ -19,9 +19,6 @@ public class Music {
 
     @Override
     public String toString() {
-        return "Music{" +
-                "name='" + name + '\'' +
-                ", artista='" + artista + '\'' +
-                '}';
+        return "Music{" + " name = " + name + ", artista = " + artista +'}';
     }
 }
