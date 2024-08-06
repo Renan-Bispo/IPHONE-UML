@@ -38,8 +38,9 @@ public class Iphone implements MusicPlayer, BrowserInternet, Telephone {
 
     @Override
     public void play() {
-        int count = 1;
+        int count = 0;
         for (Music m : musics){
+            count++;
             System.out.println(count + "º música: " + m);
         }
     }
