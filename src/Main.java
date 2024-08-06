@@ -14,7 +14,12 @@ public class Main {
         ));
 
 
-        List<Contact> contacts = new ArrayList<>(Arrays.asList(new Contact("", 0)));
+        List<Contact> contacts = new ArrayList<>(Arrays.asList(
+                new Contact("Maria", 11111111),
+                new Contact("João", 22222222),
+                new Contact("Zé do Pneu", 33333333),
+                new Contact("Carlos", 44444444)
+        ));
 
 
         List<VoiceMail> voiceMails = new ArrayList<>(Arrays.asList(new VoiceMail(0, "")));
