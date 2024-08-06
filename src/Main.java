@@ -31,9 +31,9 @@ public class Main {
 
 
         List<Page> browserInternet = new ArrayList<>(Arrays.asList(
-                new Page("www.instagram.com", ""),
-                new Page("www.apple.com",""),
-                new Page("www.youtube.com", "")
+                new Page("www.instagram.com", "3"),
+                new Page("www.apple.com","5"),
+                new Page("www.youtube.com", "6")
         ));
 
         //criando objeto do iphone
@@ -42,6 +42,16 @@ public class Main {
         iphone.call(contacts.get(1));
         iphone.toMeet();
         iphone.initVoiceMail();
+
+        iphone.newTab(new Page("www.linkedin.com", "2"));
+        iphone.displayPage(browserInternet.get(2));
+        iphone.newTab(new Page("www.glassdor.com", "1"));
+
+        System.out.println();
+
+        iphone.selectMusic("Alfa e Ômega");
+        iphone.play();
+        iphone.pause();
     }
 
 }
