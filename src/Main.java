@@ -6,7 +6,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Music> musics = new ArrayList<>(Arrays.asList(new Music("", "")));
+        List<Music> musics = new ArrayList<>(Arrays.asList(
+                new Music("Eis-me aqui", "Valesca Maysa"),
+                new Music("Vem me buscar", "Jeferson e Suelen"),
+                new Music("Alfa e Ômega","Eli Soares"),
+                new Music("Filho meu","Thales Roberto")
+        ));
 
 
         List<Contact> contacts = new ArrayList<>(Arrays.asList(new Contact("", 0)));
